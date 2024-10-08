@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+/* New styles for the weather dashboard */
+.weather-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.search-input {
+  padding: 10px;
+  width: 80%;
+  border: 2px solid #dcdcdc;
+  border-radius: 5px;
+}
+
+.weather-info {
+  text-align: center;
+}
+
+.forecast-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-day {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
